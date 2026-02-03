@@ -1,4 +1,4 @@
 # NeuroForms
 
-### ER diagram
-![er](er.png)
+
+![not-by-ai](./assets/Developed-By-a-Human-Not-By-AI-Badge-black.png)

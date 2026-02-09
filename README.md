@@ -1,17 +1,26 @@
 # NeuroForms
 
-### MVP Features/TODO
+### MVP TODO
 
-- [x] user authentication
+- [ ] user authentication
 - [ ] user authorization
 - [ ] Question model
-  - [ ] 
+- [ ] E2E encryption
+- [ ] Front end(landing page)
+
+#### Question Model
+- [ ] 
 
 
-### Advanced features
+
+### Advanced TODO
 - [ ] shorten url
 - [ ] AI question generation
 - [ ] psychology scales (Ybocs, likert)
+
+
+### optional TODO
+- [ ] Frontend advanced React
 
 
 

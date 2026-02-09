@@ -9,6 +9,7 @@
 - [ ] Front end page
 - [ ] email responses
 - [ ] pdf/json exports
+- [ ] responses can be closed for responses by creator
 
 #### Form/Question fields & TODO
 1. Form title

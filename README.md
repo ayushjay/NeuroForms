@@ -9,7 +9,7 @@
 - [ ] Front end(landing page)
 
 #### Question Model
-- [ ] 
+- [ ] Er
 
 
 
@@ -19,7 +19,7 @@
 - [ ] psychology scales (Ybocs, likert)
 
 
-### optional TODO
+### Optional TODO
 - [ ] Frontend advanced React
 
 

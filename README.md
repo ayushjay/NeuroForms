@@ -9,7 +9,7 @@
 - [ ] Front end(landing page)
 
 #### Question Model
-- [ ] Er
+- [ ] .
 
 
 

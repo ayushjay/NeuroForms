@@ -2,7 +2,7 @@
 
 ### MVP TODO
 
-- [ ] user authentication
+- [x] user authentication
 - [ ] user authorization
 - [ ] Question Model 
 - [ ] E2E encryption

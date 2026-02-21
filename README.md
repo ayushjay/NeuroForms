@@ -3,7 +3,8 @@
 ### MVP TODO
 
 - [x] user authentication
-- [ ] user authorization
+    - [ ] password reset auth
+- [x] user authorization
 - [ ] Question Model 
 - [ ] E2E encryption
 - [ ] Front end page
@@ -41,8 +42,6 @@
 
 ### Optional TODO
 - [ ] Frontend advanced React
+- [ ] Google login
 - [ ] deployment on paid domain
 
-
-
-![not-by-ai](./assets/Developed-By-a-Human-Not-By-AI-Badge-black.png)

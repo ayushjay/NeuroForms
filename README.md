@@ -5,7 +5,7 @@
 - [x] user authentication
     - [ ] password reset auth
 - [x] user authorization
-- [ ] Question Model 
+- [x] Question Model 
 - [ ] E2E encryption
 - [ ] Front end page
 - [ ] email responses
@@ -32,7 +32,7 @@
         - Time
 - [ ] Question should be deleted on the spot with delete button
 - [ ] Questions can optionally be required*
-- [ ] Form should optionally ask for required email
+- [x] Form should optionally ask for required email
 
 
 ### Advanced TODO

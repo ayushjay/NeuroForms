@@ -1,0 +1,69 @@
+{% extends "forms/base.html" %}
+
+{% block content %}
+
+<h2 class="text-2xl font-bold mb-4">{{ form.title }}</h2>
+<p class="mb-6 text-gray-600">{{ form.description }}</p>
+
+<form hx-post="{% url 'submit_form' form.id %}" hx-target="#result" hx-swap="innerHTML" class="space-y-6">
+
+    {% csrf_token %}
+
+    <div>
+        <label>Name:</label>
+        <input type="text" name="name" class="border p-2 w-full">
+    </div>
+
+    <div>
+        <label>Age:</label>
+        <input type="number" name="age" class="border p-2 w-full">
+    </div>
+
+    {% if form.require_email %}
+    <div>
+        <label>Email:</label>
+        <input type="email" name="email" class="border p-2 w-full">
+    </div>
+    {% endif %}
+
+    {% for question in form.questions.all %}
+    <div>
+        <label class="font-semibold">
+            {{ question.title }}
+            {% if question.required %} * {% endif %}
+        </label>
+
+        {% if question.answer_type == "paragraph" %}
+        <textarea name="question_{{ question.id }}" class="border p-2 w-full"></textarea>
+
+        {% elif question.answer_type == "mcq" %}
+        {% for option in question.options.all %}
+        <div>
+            <input type="radio" name="question_{{ question.id }}" value="{{ option.id }}">
+            {{ option.text }}
+        </div>
+        {% endfor %}
+
+        {% elif question.answer_type == "checkbox" %}
+        {% for option in question.options.all %}
+        <div>
+            <input type="checkbox" name="question_{{ question.id }}" value="{{ option.id }}">
+            {{ option.text }}
+        </div>
+        {% endfor %}
+
+        {% elif question.answer_type == "linear" %}
+        <input type="number" name="question_{{ question.id }}" min="{{ question.min_value }}"
+            max="{{ question.max_value }}" class="border p-2 w-full">
+        {% endif %}
+    </div>
+    {% endfor %}
+
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">
+        Submit
+    </button>
+</form>
+
+<div id="result" class="mt-6"></div>
+
+{% endblock %}

@@ -20,6 +20,8 @@
 3. Question (can be required* or not)
     - Question title
     - Answer types
+        - fname and lname, age, etc. [response level]
+        - email [response level]
         - paragraph
         - Multiple choice
         - Checkbox

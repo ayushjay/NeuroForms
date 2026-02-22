@@ -1,0 +1,46 @@
+{% extends "forms/base.html" %}
+{% block content %}
+
+<h2 class="text-2xl font-bold mb-4">{{ form.title }}</h2>
+<p class="text-gray-600 mb-6">{{ form.description }}</p>
+
+<hr class="my-6">
+
+<h3 class="text-xl font-semibold mb-4">Questions</h3>
+
+<div id="questions" class="space-y-4">
+    {% for question in form.questions.all %}
+    {% include "forms/dashboard/partials/question_item.html" %}
+    {% empty %}
+    <p>No questions yet.</p>
+    {% endfor %}
+</div>
+
+<hr class="my-6">
+
+<h3 class="text-xl font-semibold mb-4">Add Question</h3>
+
+<form hx-post="{% url 'add_question' form.id %}" hx-target="#questions" hx-swap="beforeend" class="space-y-4">
+    {% csrf_token %}
+
+    <input type="text" name="title" placeholder="Question Title" class="border p-2 w-full" required>
+
+    <select name="answer_type" class="border p-2 w-full">
+        <option value="paragraph">Paragraph</option>
+        <option value="mcq">Multiple Choice</option>
+        <option value="checkbox">Checkbox</option>
+        <option value="dropdown">Dropdown</option>
+        <option value="linear">Linear Scale</option>
+    </select>
+
+    <label>
+        <input type="checkbox" name="required">
+        Required
+    </label>
+
+    <button class="bg-blue-600 text-white px-4 py-2 rounded">
+        Add Question
+    </button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,9 @@
+<p>Total Responses: {{ total_responses }}</p>
+
+<h3 class="mt-4 font-semibold">Construct Averages</h3>
+
+<ul class="list-disc ml-6">
+    {% for construct, avg in construct_averages.items %}
+    <li>{{ construct }} → {{ avg|floatformat:2 }}</li>
+    {% endfor %}
+</ul>

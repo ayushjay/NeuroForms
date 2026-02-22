@@ -1,0 +1,10 @@
+{% extends "forms/base.html" %}
+
+{% block content %}
+
+<h2 class="text-2xl font-bold mb-4">Results</h2>
+
+<div hx-get="{% url 'results_partial' form.id %}" hx-trigger="load" hx-swap="innerHTML">
+</div>
+
+{% endblock %}

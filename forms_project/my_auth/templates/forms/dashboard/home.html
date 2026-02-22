@@ -1,0 +1,16 @@
+{% extends "forms/base.html" %}
+{% block content %}
+
+<h2 class="text-2xl font-bold mb-6">Dashboard</h2>
+
+<div class="space-y-4">
+    <a href="{% url 'form_list' %}" class="block bg-blue-600 text-white px-4 py-3 rounded text-center">
+        My Forms
+    </a>
+
+    <a href="{% url 'create_form' %}" class="block bg-green-600 text-white px-4 py-3 rounded text-center">
+        Create New Form
+    </a>
+</div>
+
+{% endblock %}

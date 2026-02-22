@@ -11,6 +11,12 @@ from rest_framework.response import Response as DRFResponse
 from rest_framework import status
 from .models import Form, Response, Answer, Question
 from .serializers.submission_serializers import SubmitFormSerializer
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
+from .models import Form, Response, Answer, Question
+from .services.validation import validate_answer
+from .services.results import calculate_results
+
 
 def signup_view(request):
     form = SignUpForm()
@@ -21,7 +27,7 @@ def signup_view(request):
             form.save()
             return redirect('login')
 
-    return render(request, "registration/signup.html", {"form": form})
+    return render(request, "forms/signup.html", {"form": form})
 
 def login_view(request):
     form = LoginForm()
@@ -38,7 +44,7 @@ def login_view(request):
                 username = user_obj.username
             except User.DoesNotExist:
                 form.add_error(None, "Invalid email or password")
-                return render(request, "registration/login.html", {"form": form})
+                return render(request, "forms/login.html", {"form": form})
 
             user = authenticate(request, username=username, password=password)
 
@@ -52,7 +58,7 @@ def login_view(request):
             else:
                 form.add_error(None, "Invalid email or password")
 
-    return render(request, "registration/login.html", {"form": form})
+    return render(request, "forms/login.html", {"form": form})
 
 
 
@@ -117,3 +123,63 @@ class SubmitFormView(APIView):
             {"message": "Form submitted successfully"},
             status=status.HTTP_201_CREATED
         )
+    
+
+
+
+def render_form(request, pk):
+    form = get_object_or_404(Form.objects.prefetch_related("questions__options"), pk=pk)
+    return render(request, "forms/render_form.html", {"form": form})
+
+def submit_form(request, pk):
+    form = get_object_or_404(Form, pk=pk)
+
+    if request.method == "POST":
+
+        response_obj = Response.objects.create(
+    form=form,
+    name=request.POST.get("name"),
+    age=request.POST.get("age") or None,
+    email=request.POST.get("email") or None
+)
+
+        for question in form.questions.all():
+            key = f"question_{question.id}"
+
+            if question.answer_type == "checkbox":
+                value = request.POST.getlist(key)
+                value = [int(v) for v in value] if value else []
+            else:
+                value = request.POST.get(key)
+                if value:
+                    try:
+                        value = int(value)
+                    except:
+                        pass
+
+            try:
+                validate_answer(question, value)
+            except Exception as e:
+                response_obj.delete()
+                return HttpResponse(
+                    f"<p class='text-red-600'>{str(e)}</p>"
+                )
+
+            Answer.objects.create(
+                response=response_obj,
+                question=question,
+                value=value
+            )
+
+        return render(request, "forms/submission_result.html")
+
+
+def results_view(request, pk):
+    form = get_object_or_404(Form, pk=pk)
+    return render(request, "forms/results.html", {"form": form})
+
+
+def results_partial(request, pk):
+    form = get_object_or_404(Form, pk=pk)
+    data = calculate_results(form)
+    return render(request, "forms/results_partial.html", data)

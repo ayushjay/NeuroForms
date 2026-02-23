@@ -14,6 +14,7 @@
 - [ ] link can be unpublshed by creator
 - [ ] frontend: Add more Questions on frontend without specifying how many Q to add
 
+
 ### Form/Question fields & TODO
 1. Form title
 2. description
@@ -46,4 +47,5 @@
 - [ ] Frontend advanced React
 - [ ] Google login
 - [ ] deployment on paid domain
+- [ ] mobile responsive
 

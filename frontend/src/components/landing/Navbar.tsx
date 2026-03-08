@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">Features</a>
           <a href="#how-it-works" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">How It Works</a>
-          <a href="#pricing" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">Pricing</a>
+          <a href="#compare" className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors">Compare with Google Forms</a>
         </div>
 
         <div className="hidden md:flex items-center gap-3">
@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="px-6 py-4 flex flex-col gap-4">
               <a href="#features" className="text-sm text-primary-foreground/70">Features</a>
               <a href="#how-it-works" className="text-sm text-primary-foreground/70">How It Works</a>
-              <a href="#pricing" className="text-sm text-primary-foreground/70">Pricing</a>
+              <a href="#compare" className="text-sm text-primary-foreground/70">Compare with Google Forms</a>
               <div className="flex gap-3 pt-2">
                 <Button variant="ghost" className="text-primary-foreground/80 hover:bg-navy-light/50" asChild>
                   <Link to="/login">Log In</Link>

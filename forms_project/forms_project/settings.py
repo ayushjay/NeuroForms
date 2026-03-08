@@ -130,7 +130,8 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]  # your Vite dev URL
+CORS_ALLOWED_ORIGINS = ["http://localhost:8080", "http://localhost:5173"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8080", "http://localhost:5173"]
 CORS_ALLOW_CREDENTIALS = True
 
 REST_FRAMEWORK = {

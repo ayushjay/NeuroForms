@@ -9,7 +9,8 @@
 <body class="bg-light">
 
     <div class="container mt-5 text-center">
-        <h2>Welcome {{ request.user.first_name }} 👋</h2>
+        <h2>Welcome {{ request.user.first_name }} </h2>
+        <h4><a href="{% url 'dashboard_home' %}">Dashboard</a></h4>
         <p>You are logged in.</p>
 
         <a href="{% url 'logout' %}" class="btn btn-danger mt-3">

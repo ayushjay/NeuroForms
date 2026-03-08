@@ -7,7 +7,7 @@
 - [x] user authorization
 - [x] Question Model 
 - [ ] E2E encryption
-- [ ] Front end page
+- [x] Front end page
 - [ ] email responses
 - [ ] pdf/json exports
 - [ ] responses can be closed for responses by creator
@@ -32,7 +32,7 @@
         - Date 
         - Time
 - [ ] Question should be deleted on the spot with delete button
-- [ ] Questions can optionally be required*
+- [x] Questions can optionally be required*
 - [x] Form should optionally ask for required email
 
 

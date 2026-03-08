@@ -4,16 +4,16 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from .forms import SignUpForm, LoginForm
 from rest_framework.generics import RetrieveAPIView
-from .models import Form
+# from .models import Form
 from .serializers.form_serializers import FormSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response as DRFResponse
 from rest_framework import status
 from .models import Form, Response, Answer, Question
 from .serializers.submission_serializers import SubmitFormSerializer
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import get_object_or_404
 from django.http import HttpResponse
-from .models import Form, Response, Answer, Question
+# from .models import Form, Response, Answer, Question
 from .services.validation import validate_answer
 from .services.results import calculate_results
 

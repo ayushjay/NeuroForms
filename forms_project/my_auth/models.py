@@ -39,8 +39,6 @@ class Question(models.Model):
 
     required = models.BooleanField(default=False)
     order = models.PositiveIntegerField(default=0)
-
-    # Psychology specific
     reverse_scored = models.BooleanField(default=False)
     construct = models.CharField(max_length=100, blank=True)  # e.g. Anxiety
 
@@ -51,7 +49,7 @@ class Option(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name='options')
     text = models.CharField(max_length=255)
 
-    # For scoring
+    
     score = models.FloatField(default=0)
 
     def __str__(self):
@@ -67,7 +65,6 @@ class Answer(models.Model):
     response = models.ForeignKey(Response, on_delete=models.CASCADE, related_name='answers')
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
 
-    # Store everything as JSON
     value = models.JSONField(blank=True, null=True)
     file = models.FileField(upload_to='form_uploads/', null=True, blank=True)
 

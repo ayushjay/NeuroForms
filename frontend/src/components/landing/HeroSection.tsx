@@ -44,14 +44,14 @@ const HeroSection = () => {
                 </Link>
               </Button>
               <Button variant="hero-outline" size="lg" asChild>
-                <Link to="/login">View Demo</Link>
+                <Link to="/login">Login </Link>
               </Button>
             </div>
 
             <div className="flex items-center gap-6 text-sm text-primary-foreground/40">
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4 text-teal/60" />
-                <span>IRB Compliant</span>
+                <span>E2E Encrytpion</span>
               </div>
               <div className="flex items-center gap-2">
                 <BarChart3 className="w-4 h-4 text-teal/60" />
@@ -82,7 +82,7 @@ const HeroSection = () => {
                     <div className="h-2.5 w-56 rounded bg-primary-foreground/20" />
                   </div>
                   <div className="space-y-2 pl-4">
-                    {[1,2,3,4,5].map(i => (
+                    {[1, 2, 3, 4, 5].map(i => (
                       <div key={i} className="flex items-center gap-3">
                         <div className={`w-4 h-4 rounded-full border-2 ${i === 3 ? 'border-teal bg-teal/30' : 'border-primary-foreground/20'}`} />
                         <div className="h-2 rounded bg-primary-foreground/15" style={{ width: `${80 + Math.random() * 60}px` }} />
@@ -98,7 +98,7 @@ const HeroSection = () => {
                     <div className="h-2.5 w-44 rounded bg-primary-foreground/20" />
                   </div>
                   <div className="flex items-center justify-between px-4 pt-2">
-                    {[1,2,3,4,5,6,7].map(i => (
+                    {[1, 2, 3, 4, 5, 6, 7].map(i => (
                       <div key={i} className={`w-8 h-8 rounded-lg flex items-center justify-center text-xs font-medium ${i === 5 ? 'bg-teal text-accent-foreground' : 'bg-primary-foreground/10 text-primary-foreground/40'}`}>
                         {i}
                       </div>

@@ -37,9 +37,10 @@ def validate_answer(question, value):
         if not isinstance(value, int):
             raise ValidationError("Linear scale must be integer.")
 
-        if question.min_value is not None and question.max_value is not None:
-            if not (question.min_value <= value <= question.max_value):
-                raise ValidationError("Linear scale value out of range.")
+        if hasattr(question, "min_value") and hasattr(question, "max_value"):
+            if getattr(question, "min_value") is not None and getattr(question, "max_value") is not None:
+                if not (getattr(question, "min_value") <= value <= getattr(question, "max_value")):
+                    raise ValidationError("Linear scale value out of range.")
 
     elif answer_type == "date":
         try:
@@ -51,7 +52,10 @@ def validate_answer(question, value):
         try:
             datetime.strptime(value, "%H:%M:%S")
         except Exception:
-            raise ValidationError("Invalid time format. Use HH:MM:SS.")
+            try:
+                datetime.strptime(value, "%H:%M")
+            except Exception:
+                raise ValidationError("Invalid time format. Use HH:MM or HH:MM:SS.")
 
     elif answer_type == "file":
         # In real system you'd validate file object

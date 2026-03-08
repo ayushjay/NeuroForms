@@ -183,6 +183,7 @@ export const dashboardApi = {
       method: "POST",
       body: JSON.stringify(payload),
     }),
+  shortenUrl: (formId: number) => request<{ short_code: string }>(`/dashboard/forms/${formId}/shorten/`, { method: "POST" }),
 };
 
 export const formApi = {

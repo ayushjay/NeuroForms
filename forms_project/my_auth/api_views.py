@@ -262,3 +262,13 @@ def api_submit_form(request, pk):
 def api_form_results(request, pk):
     form = get_object_or_404(Form, pk=pk, creator=request.user)
     return DRFResponse(calculate_results(form))
+
+
+@api_view(["POST"])
+@permission_classes([IsAuthenticated])
+def api_shorten_url(request, pk):
+    form = get_object_or_404(Form, pk=pk, creator=request.user)
+    from .models import ShortLink
+    short_link, created = ShortLink.objects.get_or_create(form=form)
+    return DRFResponse({"short_code": short_link.short_code})
+

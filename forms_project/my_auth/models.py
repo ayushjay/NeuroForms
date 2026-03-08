@@ -72,3 +72,16 @@ class Section(models.Model):
     form = models.ForeignKey(Form, on_delete=models.CASCADE, related_name='sections')
     title = models.CharField(max_length=255)
     order = models.IntegerField(default=0)
+import random
+import string
+
+def generate_short_code():
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=6))
+
+class ShortLink(models.Model):
+    form = models.OneToOneField(Form, on_delete=models.CASCADE, related_name='short_link')
+    short_code = models.CharField(max_length=10, unique=True, default=generate_short_code)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.short_code

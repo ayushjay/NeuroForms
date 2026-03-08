@@ -11,6 +11,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { dashboardApi, type QuestionData, type OptionData } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 import type { AnswerType } from "@/types/form";
+import ShareFormModal from "@/components/dashboard/ShareFormModal";
 
 const ANSWER_TYPES: { value: AnswerType; label: string }[] = [
   { value: "paragraph", label: "Paragraph" },
@@ -33,6 +34,7 @@ const EditForm = () => {
   const [formTitle, setFormTitle] = useState("");
   const [loading, setLoading] = useState(true);
   const [expandedQ, setExpandedQ] = useState<number | null>(null);
+  const [shareModalOpen, setShareModalOpen] = useState(false);
 
   // New question draft
   const [newTitle, setNewTitle] = useState("");
@@ -123,9 +125,14 @@ const EditForm = () => {
   return (
     <DashboardLayout>
       <div className="max-w-3xl mx-auto space-y-6">
-        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
-          <h1 className="font-display text-2xl font-bold">{formTitle || "Edit Form"}</h1>
-          <p className="text-sm text-muted-foreground mt-1">Form #{id} — Add questions and configure scoring</p>
+        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex justify-between items-start">
+          <div>
+            <h1 className="font-display text-2xl font-bold">{formTitle || "Edit Form"}</h1>
+            <p className="text-sm text-muted-foreground mt-1">Form #{id} — Add questions and configure scoring</p>
+          </div>
+          <Button variant="outline" onClick={() => setShareModalOpen(true)}>
+            Share
+          </Button>
         </motion.div>
 
         {/* Questions list */}
@@ -218,6 +225,13 @@ const EditForm = () => {
           </div>
         </div>
       </div>
+      {shareModalOpen && (
+        <ShareFormModal
+          formId={formId}
+          isOpen={shareModalOpen}
+          onClose={() => setShareModalOpen(false)}
+        />
+      )}
     </DashboardLayout>
   );
 };

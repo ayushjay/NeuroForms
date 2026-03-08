@@ -9,10 +9,10 @@
 - [ ] E2E encryption
 - [x] Front end page
 - [ ] email responses
-- [ ] pdf/json exports
+- [x] pdf exports
 - [ ] responses can be closed for responses by creator
 - [ ] link can be unpublshed by creator
-- [ ] frontend: Add more Questions on frontend without specifying how many Q to add
+- [x] frontend: Add more Questions on frontend without specifying how many Q to add
 
 
 ### Form/Question fields & TODO
@@ -31,7 +31,7 @@
         - Linear Scale
         - Date 
         - Time
-- [ ] Question should be deleted on the spot with delete button
+- [x] Question should be deleted on the spot with delete button
 - [x] Questions can optionally be required*
 - [x] Form should optionally ask for required email
 
@@ -40,11 +40,11 @@
 - [ ] shorten url
 - [ ] AI question generation
 - [ ] psychology scales (Ybocs, likert)
-- [ ] data visulizations for creator
+- [x] data visulizations for creator
 
 
 ### Optional TODO
-- [ ] Frontend advanced React
+- [x] Frontend advanced React
 - [ ] Google login
 - [ ] deployment on paid domain
 - [ ] mobile responsive

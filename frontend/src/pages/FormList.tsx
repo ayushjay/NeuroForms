@@ -2,15 +2,17 @@ import { useEffect, useState } from "react";
 import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Plus, MoreVertical, ExternalLink, BarChart3, Edit, Trash2, Loader2 } from "lucide-react";
+import { Plus, MoreVertical, ExternalLink, BarChart3, Edit, Trash2, Loader2, Share2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { dashboardApi, type FormListItem } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
+import ShareFormModal from "@/components/dashboard/ShareFormModal";
 
 const FormList = () => {
   const [forms, setForms] = useState<FormListItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const [shareFormId, setShareFormId] = useState<number | null>(null);
   const { toast } = useToast();
 
   const fetchForms = () => {
@@ -106,6 +108,9 @@ const FormList = () => {
                           <ExternalLink className="w-4 h-4 mr-2" /> Preview
                         </Link>
                       </DropdownMenuItem>
+                      <DropdownMenuItem onClick={() => setShareFormId(form.id)}>
+                        <Share2 className="w-4 h-4 mr-2" /> Share
+                      </DropdownMenuItem>
                       <DropdownMenuItem asChild>
                         <Link to={`/forms/${form.id}/results`}>
                           <BarChart3 className="w-4 h-4 mr-2" /> Results
@@ -122,8 +127,17 @@ const FormList = () => {
           </div>
         )}
       </div>
+
+      {shareFormId && (
+        <ShareFormModal
+          formId={shareFormId}
+          isOpen={true}
+          onClose={() => setShareFormId(null)}
+        />
+      )}
     </DashboardLayout>
   );
 };
 
 export default FormList;
+

@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, re_path
 
 from . import api_views
 from . import dashboard_views
@@ -22,20 +22,17 @@ urlpatterns = [
     path("api/forms/<int:pk>/", api_views.api_form_detail),
     path("api/forms/<int:pk>/submit/", api_views.api_submit_form),
     path("api/forms/<int:pk>/results/", api_views.api_form_results),
+    path("api/dashboard/forms/<int:pk>/shorten/", api_views.api_shorten_url),
 
-    # Existing server-rendered pages
-    path("signup/", signup_view, name="signup"),
-    path("login/", login_view, name="login"),
-    path("logout/", logout_view, name="logout"),
-    path("", home_view, name="home"),
+    # ShortLink redirect
+    path("s/<str:short_code>/", views.redirect_short_link),
+
+    # Existing server-rendered pages are removed in favor of React SPA
     path("forms/<int:pk>/", views.render_form, name="render_form"),
     path("forms/<int:pk>/submit/", views.submit_form, name="submit_form"),
     path("forms/<int:pk>/results/", views.results_view, name="results_view"),
     path("forms/<int:pk>/results/data/", views.results_partial, name="results_partial"),
-    path("dashboard/", dashboard_views.dashboard_home, name="dashboard_home"),
-    path("dashboard/forms/", dashboard_views.form_list, name="form_list"),
-    path("dashboard/forms/create/", dashboard_views.create_form, name="create_form"),
-    path("dashboard/forms/<int:pk>/edit/", dashboard_views.edit_form, name="edit_form"),
-    path("dashboard/forms/<int:pk>/questions/add/", dashboard_views.add_question, name="add_question"),
-    path("dashboard/questions/<int:pk>/options/add/", dashboard_views.add_option, name="add_option"),
+
+    # Catch-all route for React SPA
+    re_path(r"^.*$", views.serve_react),
 ]

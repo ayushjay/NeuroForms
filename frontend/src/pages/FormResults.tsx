@@ -2,8 +2,9 @@ import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import DashboardLayout from "@/components/dashboard/DashboardLayout";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
-import { ArrowLeft, Users, TrendingUp, Loader2 } from "lucide-react";
+import { ArrowLeft, Users, TrendingUp, Loader2, Download } from "lucide-react";
 import { motion } from "framer-motion";
+import html2pdf from "html2pdf.js";
 import { formApi, type ResultsData } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 
@@ -13,6 +14,7 @@ const FormResults = () => {
   const { toast } = useToast();
   const [results, setResults] = useState<ResultsData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [exporting, setExporting] = useState(false);
 
   useEffect(() => {
     formApi.results(formId)
@@ -28,6 +30,30 @@ const FormResults = () => {
       }))
     : [];
 
+  const handleExportPDF = () => {
+    setExporting(true);
+    const element = document.getElementById("pdf-export-content");
+    
+    // Configure html2pdf options for high quality output
+    const opt = {
+      margin:       0.5,
+      filename:     `Form_${id}_Results.pdf`,
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2, useCORS: true },
+      jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    html2pdf()
+      .set(opt)
+      .from(element)
+      .save()
+      .then(() => setExporting(false))
+      .catch(() => {
+        toast({ title: "Export failed", description: "Could not generate PDF", variant: "destructive" });
+        setExporting(false);
+      });
+  };
+
   if (loading) {
     return (
       <DashboardLayout>
@@ -41,14 +67,29 @@ const FormResults = () => {
   return (
     <DashboardLayout>
       <div className="max-w-4xl mx-auto space-y-8">
-        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
-          <Link to="/dashboard/forms" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-4 transition-colors">
-            <ArrowLeft className="w-4 h-4" />
-            Back to forms
-          </Link>
-          <h1 className="font-display text-2xl font-bold">Results & Analytics</h1>
-          <p className="text-sm text-muted-foreground mt-1">Form #{id}</p>
-        </motion.div>
+        <div className="flex justify-between items-start">
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
+            <Link to="/dashboard/forms" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-4 transition-colors">
+              <ArrowLeft className="w-4 h-4" />
+              Back to forms
+            </Link>
+            <h1 className="font-display text-2xl font-bold">Results & Analytics</h1>
+            <p className="text-sm text-muted-foreground mt-1">Form #{id}</p>
+          </motion.div>
+          
+          <motion.button 
+            initial={{ opacity: 0, scale: 0.9 }} 
+            animate={{ opacity: 1, scale: 1 }}
+            onClick={handleExportPDF}
+            disabled={exporting}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-teal text-white rounded-lg hover:bg-teal/90 transition-colors disabled:opacity-50 font-medium text-sm shadow-sm"
+          >
+            {exporting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
+            {exporting ? "Exporting..." : "Export PDF"}
+          </motion.button>
+        </div>
+
+        <div id="pdf-export-content" className="space-y-8 bg-background p-2 -m-2 rounded-xl">
 
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="bg-card rounded-xl border border-border p-5 shadow-card">
@@ -110,6 +151,7 @@ const FormResults = () => {
             </div>
           </>
         )}
+        </div>
       </div>
     </DashboardLayout>
   );

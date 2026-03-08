@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
+from django.conf import settings
+import os
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
@@ -73,6 +75,15 @@ def home_view(request):
     return render(request, "home.html")
 
 
+def serve_react(request, path=None):
+    index_path = os.path.join(settings.BASE_DIR.parent, "frontend", "dist", "index.html")
+    try:
+        with open(index_path, "r") as f:
+            return HttpResponse(f.read())
+    except FileNotFoundError:
+        return HttpResponse("React frontend not built yet. Run 'npm run build' in the frontend folder.", status=501)
+
+
 
 
 class FormDetailView(RetrieveAPIView):
@@ -125,6 +136,12 @@ class SubmitFormView(APIView):
         )
     
 
+
+
+def redirect_short_link(request, short_code):
+    from .models import ShortLink
+    short_link = get_object_or_404(ShortLink, short_code=short_code)
+    return redirect(f"/forms/{short_link.form.id}")
 
 
 def render_form(request, pk):

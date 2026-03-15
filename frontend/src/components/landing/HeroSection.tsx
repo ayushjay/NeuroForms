@@ -24,7 +24,7 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-teal/30 bg-teal/10 mb-6">
               <Zap className="w-3.5 h-3.5 text-teal" />
-              <span className="text-xs font-medium text-teal">Purpose-built for psychological research</span>
+              <span className="text-xs font-medium text-teal">Currently in Beta</span>
             </div>
 
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-[1.1] mb-6">

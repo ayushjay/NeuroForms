@@ -37,10 +37,12 @@
 
 
 ### Advanced TODO
-- [ ] shorten url
+- [x] shorten url
 - [ ] AI question generation
 - [ ] psychology scales (Ybocs, likert)
 - [x] data visulizations for creator
+- [ ] advanced data visualizations/stats
+- [ ] GAN based custom LLM forms(optional)
 
 
 ### Optional TODO

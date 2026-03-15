@@ -1,0 +1,5132 @@
+[
+  {
+    "id": "Autism_EQSQ",
+    "category": "Autism",
+    "name": "Eqsq",
+    "question_count": 120,
+    "questions": [
+      {
+        "title": "I can easily tell if someone else wants to enter a conversation.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I prefer animals to humans.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I try to keep up with the current trends and fashions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to explain to others things that I understand easily, when they don't understand it first time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dream most nights.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I really enjoy caring for other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I try to solve my own problems rather than discussing them with others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it hard to know what to do in a social situation.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am at my best first thing in the morning.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People often tell me that I went too far in driving my point home in a discussion.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It doesn't bother me too much if I am late meeting a friend.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Friendships and relationships are just too difficult, so I tend not to bother with them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would never break a law, no matter how minor.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often find it difficult to judge if something is rude or polite.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "In a conversation, I tend to focus on my own thoughts rather than on what my listener might be thinking.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I prefer practical jokes to verbal humour.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I live life for today rather than the future.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I was a child, I enjoyed cutting up worms to see what would happen.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can pick up quickly if someone says one thing but means another.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to have very strong opinions about morality.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It is hard for me to see why some things upset people so much.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it easy to put myself in somebody else's shoes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think that good manners are the most important thing a parent can teach their child.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to do things on the spur of the moment.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am good at predicting how someone will feel.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quick to spot when someone in a group is feeling awkward or uncomfortable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I say something that someone else is offended by, I think that that's their problem, not mine.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If anyone asked me if I liked their haircut, I would reply truthfully, even if I didn't like it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can't always see why someone should have felt offended by a remark.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People often tell me that I am very unpredictable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy being the centre of attention at any social gathering.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Seeing people cry doesn't really upset me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy having discussions about politics.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very blunt, which some people take to be rudeness, even though this is unintentional.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don?tend to find social situations confusing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Other people tell me I am good at understanding how they are feeling and what they are thinking.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I talk to people, I tend to talk about their experiences rather than my own.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It upsets me to see an animal in pain.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am able to make decisions without being influenced by people's feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can't relax until I have done everything I had planned to do that day.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can easily tell if someone else is interested or bored with what I am saying.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get upset if I see people suffering on news programmes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Friends usually talk to me about their problems as they say that I am very understanding.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can sense if I am intruding, even if the other person doesn't tell me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often start new hobbies but quickly become bored with them and move on to something else.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People sometimes tell me that I have gone too far with teasing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would be too nervous to go on a big rollercoaster.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Other people often say that I am insensitive, though I don?always see why.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I see a stranger in a group, I think that it is up to them to make an effort to join in.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I usually stay emotionally detached when watching a film.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to be very organised in day to day life and often make lists of the chores I have to do.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can tune into how someone else feels rapidly and intuitively.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't like to take risks.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can easily work out what another person might want to talk about.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can tell if someone is masking their true emotion.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Before making a decision I always weigh up the pros and cons.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't consciously work out the rules of social situations.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am good at predicting what someone will do.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to get emotionally involved with a friend's problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can usually appreciate the other person's viewpoint, even if I don't agree with it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I listen to a piece of music, I always notice the way it's structured.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I adhere to common superstitions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often make resolutions, but find it hard to stick to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I prefer to read non-fiction than fiction.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were buying a car, I would want to obtain specific information about its engine capacity.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I look at a painting, I do not usually think about the technique involved in making it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If there was a problem with the electrical wiring in my home, I'd be able to fix it myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I have a dream, I find it difficult to remember precise details about the dream the next day.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I watch a film, I prefer to be with a group of friends, rather than alone.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am interested in learning about different religions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I rarely read articles or webpages about new technology.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not enjoy games that involve a high degree of strategy.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am fascinated by how machines work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make it a point of listening to the news each morning.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "In maths, I am intrigued by the rules and patterns governing numbers.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am bad about keeping in touch with old friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I am relating a story, I often leave out details and just give the gist of what happened.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to understand instruction manuals for putting appliances together.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I look at an animal, I like to know the precise species it belongs to.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were buying a computer, I would want to know exact details about its hard drive capacity and processor speed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy participating in sport.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I try to avoid doing household chores if I can.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I cook, I do not think about exactly how different methods and ingredients contribute to the final product.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to read and understand maps.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I had a collection (e.g. CDs, coins, stamps), it would be highly organised.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I look at a piece of furniture, I do not notice the details of how it was constructed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The idea of engaging in \"risk-taking\" activities appeals to me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I learn about historical events, I do not focus on exact dates.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I read the newspaper, I am drawn to tables of information, such as football league scores or stock market indices.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I learn a language, I become intrigued by its grammatical rules.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to learn my way around a new city.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not tend to watch science documentaries on television or read articles about science and nature.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were buying a stereo, I would want to know about its precise technical features.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it easy to grasp exactly how odds work in betting.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not very meticulous when I carry out D.I.Y.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it easy to carry on a conversation with someone I've just met.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I look at a building, I am curious about the precise way it was constructed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When an election is being held, I am not interested in the results for each constituency.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I lend someone money, I expect them to pay me back exactly what they owe me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to understand information the bank sends me on different investment and saving systems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When travelling by train, I often wonder exactly how the rail networks are coordinated.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I buy a new appliance, I do not read the instruction manual very thoroughly.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were buying a camera, I would not look carefully into the quality of the lens.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I read something, I always notice whether it is grammatically correct.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I hear the weather forecast, I am not very interested in the meteorological patterns.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often wonder what it would be like to be someone else.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it difficult to do two things at once.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I look at a mountain, I think about how precisely it was formed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can easily visualise how the motorways in my region link up.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I'm in a restaurant, I often have a hard time deciding what to order.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I'm in a plane, I do not think about the aerodynamics.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often forget the precise details of conversations I've had.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I am walking in the country, I am curious about how the various kinds of trees differ.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "After meeting someone just once or twice, I find it difficult to remember precisely what they look like.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am interested in knowing the path a river takes from its source to the sea.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not read legal documents very carefully.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in understanding how wireless communication works.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am curious about life on other planets.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I travel, I like to learn specific details about the culture of the place I am visiting.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not care to know the names of the plants I see.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Career_RIASEC_data12Dec2018",
+    "category": "Career",
+    "name": "Riasec Data12Dec2018",
+    "question_count": 58,
+    "questions": [
+      {
+        "title": "Test the quality of parts before shipment",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Lay brick or tile",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Work on an offshore oil-drilling rig",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Assemble electronic parts",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Operate a grinding machine in a factory",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Fix a broken faucet",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Assemble products in a factory",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Install flooring in houses",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Study the structure of the human body",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Study animal behavior",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Do research on plants or animals",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Develop a new medical treatment or procedure",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conduct biological research",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Study whales and other types of marine life",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Work in a biology lab",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Make a map of the bottom of an ocean",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conduct a musical choir",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Direct a play",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Design artwork for magazines",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Write a song",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Write books or plays",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Play a musical instrument",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Perform stunts for a movie or television show",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Design sets for plays",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Give career guidance to people",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Do volunteer work at a non-profit organization",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Help people who have problems with drugs or alcohol",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Teach an individual an exercise routine",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Help people with family-related problems",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Supervise the activities of children at a camp",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Teach children how to read",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Help elderly people with their daily activities",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sell restaurant franchises to individuals",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sell merchandise at a department store",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Manage the operations of a hotel",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Operate a beauty salon or barber shop",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Manage a department within a large company",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Manage a clothing store",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sell houses",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Run a toy store",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Generate the monthly payroll checks for an office",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Inventory supplies using a hand-held computer",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Use a computer program to generate customer bills",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Maintain employee records",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Compute and record statistical and other numerical data",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Operate a calculator",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Handle customers' bank transactions",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Keep shipping and receiving records",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Cognitive_randomnumber",
+    "category": "Cognitive",
+    "name": "Randomnumber",
+    "question_count": 70,
+    "questions": [
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 1000?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 44 and 99?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 100 and 500?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 123 and 1234?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 7 and 50?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 60 and 140?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 80 and 90?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 5 and 8?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 600 and 800?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 600 and 800?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 4?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 1 and 100?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 77 and 4012?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "What is a number between 30 and 60?",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am the life of the party.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't talk a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel comfortable around people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I keep in the background.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I start conversations.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have little to say.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I talk to a lot of different people at parties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't like to draw attention to myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't mind being the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quiet around strangers.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get stressed out easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am relaxed most of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry about things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I seldom feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am easily disturbed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get upset easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I change my mood a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have frequent mood swings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get irritated easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel little concern for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am interested in people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I insult people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sympathize with others' feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in other people's problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a soft heart.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not really interested in others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take time out for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel others' emotions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make people feel at ease.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am always prepared.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I leave my belongings around.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to details.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make a mess of things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get chores done right away.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often forget to put things back in their proper place.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like order.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I shirk my duties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I follow a schedule.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am exacting in my work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a rich vocabulary.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have difficulty understanding abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a vivid imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have excellent ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not have a good imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quick to understand things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use difficult words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I spend time reflecting on things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am full of ideas.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Cognitive_VIQT_data",
+    "category": "Cognitive",
+    "name": "Viqt Data",
+    "question_count": 75,
+    "questions": [
+      {
+        "title": "24 \ttiny faded new large big",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "3 \tshovel spade needle oak club",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \twalk rob juggle steal discover",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tfinish embellish cap squeak talk",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \trecall flex efface remember divest",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \timplore fancy recant beg answer",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \tdeal claim plea recoup sale",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tmindful negligent neurotic lax delectable",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \tquash evade enumerate assist defeat",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tentrapment partner fool companion mirror",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tjunk squeeze trash punch crack",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \ttrivial crude presidential flow minor",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \tprattle siren couch chatter good",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tabove slow over pierce what",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "18 \tassail designate arcane capitulate specify",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "18 \tsucceed drop squeal spit fall",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "3 \tfly soar drink peer hop",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "12 \tdisburse perplex muster convene feign",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "18 \tcistern crimp bastion leeway pleat",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "18 \tsolder beguile distant reveal seduce",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "3 \tdowager matron spank fiend sire",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "18 \tworldly solo inverted drunk alone",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "6 \tprotracted standard normal florid unbalanced",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "12 \tadmissible barbaric lackluster drab spiffy",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \trelated intrinsic alien steadfast pertinent",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tfacile annoying clicker obnoxious counter",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tcapricious incipient galling nascent chromatic",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \tnoted subsidiary culinary illustrious begrudge",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \tbreach harmony vehement rupture acquiesce",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "3 \tinfluence power cauterize bizarre regular",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "6 \tsilence rage anger victory love",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tsector mean light harsh predator",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \thouse carnival yeast economy domicile",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "3 \tdepression despondency forswear hysteria integrity",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \tmemorandum catalogue bourgeois trigger note",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "24 \tfulminant doohickey ligature epistle letter",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "17 \ttitanic equestrian niggardly promiscuous gargantuan",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tstanchion strumpet pole pale forstall",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tyearn reject hanker despair indolence",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "24 \tintroduce terminate shatter bifurcate fork",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \tomen opulence harbinger mystic demand",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "5 \thightail report abscond perturb surmise",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "12 \tfugacious vapid fractious querulous extemporaneous",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "10 \tcardinal pilot full trial inkling",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "9 \tfixed rotund stagnant permanent shifty",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I prefer to be barefoot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I avoid contacts with others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I had an imaginary friend as a child.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I&apos;d rather not people pay attention to me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would be interested in getting my fortune told.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not what society wants me to be.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't pack much luggage when I travel.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I try my best to follow the rules.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I did not work very hard in school.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don&apos;t like to analyze literature.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes feel like crying when I get angry.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very unusual.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have been very interested in historical wars.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think ancient philosophy still is meaningful today.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have kept a personal journal.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have lots of my own theories.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I could do an impressive amount of push ups.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I put work first.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not have a very expressive face.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do more than what&apos;s expected of me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sit on my legs.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am a perfectionist.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have studied how to win at gambling.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I naturally emerge as a leader.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I wish people were more spiritual.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I always do the bare minimum I need to get by.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to play devils advocate.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not bothered by messy people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am more artistic than scientific.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not quite sure what I want.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Dark_Personality_MACH_data",
+    "category": "Dark Personality",
+    "name": "Mach Data",
+    "question_count": 10,
+    "questions": [
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Dark_Personality_NPI",
+    "category": "Dark Personality",
+    "name": "Npi",
+    "question_count": 40,
+    "questions": [
+      {
+        "title": "1= I have a natural talent for influencing people. 2=I am not good at influencing people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Modesty doesn't become me. 2=I am essentially a modest person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I would do almost anything on a dare. 2=I tend to be a fairly cautious person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=When people compliment me I sometimes get embarrassed. 2=I know that I am good because everybody keeps telling me so.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=The thought of ruling the world frightens the hell out of me. 2=If I ruled the world it would be a better place.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I can usually talk my way out of anything. 2=I try to accept the consequences of my behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I prefer to blend in with the crowd. 2=I like to be the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I will be a success. 2=I am not too concerned about success.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am no better or worse than most people. 2=I think I am a special person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am not sure if I would make a good leader. 2=I see myself as a good leader.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am assertive. 2=I wish I were more assertive.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I like to have authority over other people. 2=I don't mind following orders.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I find it easy to manipulate people. 2=I don't like it when I find myself manipulating people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I insist upon getting the respect that is due me. 2=I usually get the respect that I deserve.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I don't particularly like to show off my body. 2=I like to show off my body.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I can read people like a book. 2=People are sometimes hard to understand.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=If I feel competent I am willing to take responsibility for making decisions. 2=I like to take responsibility for making decisions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I just want to be reasonably happy. 2=I want to amount to something in the eyes of the world.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=My body is nothing special. 2=I like to look at my body.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I try not to be a show off. 2=I will usually show off if I get the chance.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I always know what I am doing. 2=Sometimes I am not sure of what I am doing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I sometimes depend on people to get things done. 2=I rarely depend on anyone else to get things done.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Sometimes I tell good stories. 2=Everybody likes to hear my stories.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I expect a great deal from other people. 2=I like to do things for other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I will never be satisfied until I get all that I deserve. 2=I take my satisfactions as they come.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Compliments embarrass me. 2=I like to be complimented.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I have a strong will to power. 2=Power for its own sake doesn't interest me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I don't care about new fads and fashions. 2=I like to start new fads and fashions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I like to look at myself in the mirror. 2=I am not particularly interested in looking at myself in the mirror.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I really like to be the center of attention. 2=It makes me uncomfortable to be the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I can live my life in any way I want to. 2=People can't always live their lives in terms of what they want.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Being an authority doesn't mean that much to me. 2=People always seem to recognize my authority.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I would prefer to be a leader. 2=It makes little difference to me whether I am a leader or not.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am going to be a great person. 2=I hope I am going to be successful.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=People sometimes believe what I tell them. 2=I can make anybody believe anything I want them to.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am a born leader. 2=Leadership is a quality that takes a long time to develop.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I wish somebody would someday write my biography. 2=I don't like people to pry into my life for any reason.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I get upset when people don't notice how I look when I go out in public. 2=I don't mind blending into the crowd when I go out in public.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am more capable than other people. 2=There is a lot that I can learn from other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=I am much like everybody else. 2=I am an extraordinary person.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Dark_Personality_SD3",
+    "category": "Dark Personality",
+    "name": "Sd3",
+    "question_count": 27,
+    "questions": [
+      {
+        "title": "It's not wise to tell your secrets.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to use clever manipulation to get my way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Whatever it takes, you must get the important people on your side.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Avoid direct conflict with others because they may be useful in the future.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Its wise to keep track of information that you can use against people later.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "You should wait for the right time to get back at people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "There are things you should hide from other people because they dont need to know.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Make sure your plans benefit you, not others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Most people can be manipulated.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People see me as a natural leader.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I hate being the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Many group activities tend to be dull without me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I know that I am special because everyone keeps telling me so.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to get acquainted with important people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel embarrassed if someone compliments me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have been compared to famous people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am an average person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I insist on getting the respect I deserve.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to get revenge on authorities.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I avoid dangerous situations.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Payback needs to be quick and nasty.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People often say Im out of control.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Its true that I can be mean to others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People who mess with me always regret it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have never gotten into trouble with the law.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy having sex with people I hardly know",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Ill say anything to get what I want.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Mental_Health_TMA",
+    "category": "Mental Health",
+    "name": "Tma",
+    "question_count": 50,
+    "questions": [
+      {
+        "title": "I do not tire quickly.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am troubled by attacks of nausea.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I believe I am no more nervous than most others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have very few headaches.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I work under a great deal of tension.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I cannot keep my mind on one thing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry over money and business.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I frequently notice my hand shakes when I try to do something.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I blush no more often than others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have diarrhea once a month or more.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry quite a bit over possible misfortunes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I practically never blush.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am often afraid that I am going to blush.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have nightmares every few nights.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My hands and feet are usually warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sweat very easily even on cool days.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sometimes when embarrassed, I break out in a sweat.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I hardly ever notice my heart pounding and I am seldom short of breath.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel hungry almost all the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very seldom troubled by constipation.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a great deal of stomach trouble.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have had periods in which I lost sleep over worry.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sleep is fitful and disturbed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dream frequently about things that are best kept to myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am easily embarrassed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am more sensitive than most other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I frequently find myself worrying about something.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I wish I could be as happy as others seem to be.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am usually calm and not easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I cry easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel anxiety about something or someone almost all the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am happy most of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It makes me nervous to have to wait.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have periods of such great restlessness that I cannot sit long I a chair.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sometimes I become so excited that I find it hard to get to sleep.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have sometimes felt that difficulties were piling up so high that I could not overcome them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I must admit that I have at times been worried beyond reason over something that really did not matter.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have very few fears compared to my friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have been afraid of things or people that I know could not hurt me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I certainly feel useless at times.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find it hard to keep my mind on a task or job.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am usually self-conscious.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am inclined to take things hard.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am a high-strung person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Life is a trial for me much of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "At times I think I am no good at all.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am certainly lacking in self-confidence.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes feel that I am about to go to pieces.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I shrink from facing crisis of difficulty.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am entirely self-confident.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Mindfulness_KIMS",
+    "category": "Mindfulness",
+    "name": "Kims",
+    "question_count": 39,
+    "questions": [
+      {
+        "title": "I notice changes in my body, such as whether my breathing slows down or speeds up.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im good at finding the words to describe my feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I do things, my mind wanders off and Im easily distracted.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I criticize myself for having irrational or inappropriate emotions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to whether my muscles are tense or relaxed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can easily put my beliefs, opinions, and expectations into words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When Im doing something, Im only focused on what Im doing, nothing else.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to evaluate whether my perceptions are right or wrong.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When Im walking, I deliberately notice the sensations of my body moving.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im good at thinking of words to express my perceptions, such as how things taste, smell, or sound.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I drive on automatic pilot without paying attention to what Im doing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tell myself that I shouldnt be feeling the way Im feeling.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I take a shower or bath, I stay alert to the sensations of water on my body.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Its hard for me to find the words to describe what Im thinking.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When Im reading, I focus all my attention on what Im reading.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I believe some of my thoughts are abnormal or bad and I shouldnt think that way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I notice how foods and drinks affect my thoughts, bodily sensations, and emotions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have trouble thinking of the right words to express how I feel about things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I do things, I get totally wrapped up in them and dont think about  anything else.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make judgments about whether my thoughts are good or bad.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to sensations, such as the wind in my hair or sun on my face",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I have a sensation in my body, its difficult for me to describe it because I cant find the right words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont pay attention to what Im doing because Im daydreaming, worrying, or otherwise distracted.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to make judgments about how worthwhile or worthless my experiences are.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to sounds, such as clocks ticking, birds chirping, or cars passing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Even when Im feeling terribly upset, I can find a way to put it into words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When Im doing chores, such as cleaning or laundry, I tend to daydream or think of other things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tell myself that I shouldnt be thinking the way Im thinking.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I notice the smells and aromas of things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I intentionally stay aware of my feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to do several things at once rather than focusing on one thing at a time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think some of my emotions are bad or inappropriate and I shouldnt feel them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I notice visual elements in art or nature, such as colors, shapes, textures, or patterns of light and shadow.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My natural tendency is to put my experiences into words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When Im working on something, part of my mind is occupied with other topics, such as what Ill be doing later, or things Id rather be doing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I disapprove of myself when I have irrational ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to how my emotions affect my thoughts and behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get completely absorbed in what Im doing, so that all my attention is focused  on it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I notice when my moods begin to change.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Misc_CFCS",
+    "category": "Misc",
+    "name": "Cfcs",
+    "question_count": 12,
+    "questions": [
+      {
+        "title": "I consider how things might be in the future, and try to influence those things with my day to day behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Often I engage in a particular behavior in order to achieve outcomes that may not result for many years.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I only act to satisfy immediate concerns, figuring the future will take care of itself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My behavior is only influenced by the immediate (i.e., a matter of days or weeks) outcomes of my actions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My convenience is a big factor in the decisions I make or the actions I take.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am willing to sacrifice my immediate happiness or well-being in order to achieve future outcomes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think it is important to take warnings about negative outcomes seriously even if the negative outcome will not occur for many years.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think it is more important to perform a behavior with important distant consequences than a behavior with less-important immediate consequences.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I generally ignore warnings about possible future problems because I think the problems will be resolved before they reach crisis level.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think that sacrificing now is usually unnecessary since future outcomes can be dealt with at a later time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I only act to satisfy immediate concerns, figuring that I will take care of future problems that may occur at a later date.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Since my day to day work has specific outcomes, it is more important to me than behavior that has distant outcomes.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Misc_FTI-data",
+    "category": "Misc",
+    "name": "Fti Data",
+    "question_count": 14,
+    "questions": [
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Opioids (heroin, morphine, etc)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Amphetamines (or Adderall, etc)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Hormonal birth control",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anabolic steroids / TRT",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Misc_NPAS-data-16December2018",
+    "category": "Misc",
+    "name": "Npas Data 16December2018",
+    "question_count": 36,
+    "questions": [
+      {
+        "title": "I am interested in science.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I was in advanced classes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to play RPGs. (Ex. D&D)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My appearance is not as important as my intelligence.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I collect books.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I prefer academic success to social success.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I watch science related shows.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I spend recreational time researching topics others might find dry or overly rigorous.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like science fiction.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would rather read a book than go to a party.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am more comfortable with my hobbies than I am with other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I spend more time at the library than any other public place.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would describe my smarts as bookish.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like to read technology news reports.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have started writing a novel.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I gravitate towards introspection.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am more comfortable interacting online than in person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I love to read challenging material.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have played a lot of video games.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I was a very odd child.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes prefer fictional people to real ones.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy learning more than I need to.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get excited about my ideas and research.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am a strange person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I care about super heroes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can be socially awkward at times.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Misc_OSRI44_dev_data",
+    "category": "Misc",
+    "name": "Osri44 Dev Data",
+    "question_count": 44,
+    "questions": [
+      {
+        "title": "I have studied how to win at gambling.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have thought about dying my hair.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have thrown knives, axes or other sharp things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I give people handmade gifts.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have day dreamed about saving someone from a burning building.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get embarrassed when people read things I have written.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have been very interested in historical wars.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I know the birthdays of my friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like guns.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am happiest when I am in my bed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I did not work very hard in school.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use lotion on my hands.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would prefer a class in mathematics to a class in pottery.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dance when I am alone.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have thought it would be exciting to be an outlaw.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I was a child, I put on fake concerts and plays with my friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have considered joining the military.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get dizzy when I stand up sharply.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not think it is normal to get emotionally upset upon hearing about the deaths of people you did not know.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes feel like crying when I get angry.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not remember birthdays.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I save the letters I get.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I playfully insult my friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I oppose medical experimentation with animals.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I could do an impressive amount of push ups.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I jump up and down in excitement sometimes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think a natural disaster would be kind of exciting.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I wear a blanket around the house.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have burned things up with a magnifying glass.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think horoscopes are fun.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't pack much luggage when I travel.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have thought about becoming a vegetarian.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I hate shopping.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have kept a personal journal.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have taken apart machines just to see how they work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take lots of pictures of my activities.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have played a lot of video games.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I leave nice notes for people now and then.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have set fuels, aerosols or other chemicals on fire, just for fun.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I really like dancing.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take stairs two at a time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I bake sweets just for myself sometimes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think a natural disaster would be kind of exciting.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I decorate my things (e.g. stickers on laptop).",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Misc_Wagner",
+    "category": "Misc",
+    "name": "Wagner",
+    "question_count": 12,
+    "questions": [
+      {
+        "title": "1=Major in Logic, 2=Write a letter, 3=Fix things at home, 4=Major in art",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Be a movie critic, 2=Learn new words, 3=Improve your skills in a game, 4=Create a new toy",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Improve your strategy in a game, 2=Remember people's names, 3=Engage in sports, 4=Play an instrument by ear",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Review a book, 2=Write for a magazine, 3=Build new shelves at home, 4=Draw a landscape or seascape",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Analyze market trends, 2=Write a movie script, 3=Do carpentry work, 4=Imagine a new play",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Analyze management practices, 2=Locate words in a dictionary, 3=Put jigsaw puzzles together, 4=Paint in oil",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Be in charge of computer programming, 2=Study word origins and meaning, 3=Putter in the yard, 4=Invent a new gadget",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Analyze production costs, 2=Describe a new product in words, 3=Sell a new product on the market, 4=Draw a picture of a new product",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Explain the logic of a theory, 2=Be a copy writer for ads, 3=Work with wood and clay, 4=Invent a story",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Be a comparison shopper, 2=Read about famous men and women, 3=Run a traffic control tower, 4=Mold with clay and putty",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Analyze your budget, 2=Study literature, 3=Visualize and re-arrange furniture, 4=Be an artist",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "1=Plan a trip and make a budget, 2=Write a novel, 3=Build a house or shack, 4=Make crafts your hobby",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Personality_BIG5",
+    "category": "Personality",
+    "name": "Big5",
+    "question_count": 50,
+    "questions": [
+      {
+        "title": "I am the life of the party.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't talk a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel comfortable around people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I keep in the background.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I start conversations.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have little to say.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I talk to a lot of different people at parties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't like to draw attention to myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't mind being the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quiet around strangers.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get stressed out easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am relaxed most of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry about things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I seldom feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am easily disturbed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get upset easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I change my mood a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have frequent mood swings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get irritated easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel little concern for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am interested in people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I insult people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sympathize with others' feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in other people's problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a soft heart.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not really interested in others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take time out for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel others' emotions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make people feel at ease.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am always prepared.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I leave my belongings around.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to details.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make a mess of things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get chores done right away.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often forget to put things back in their proper place.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like order.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I shirk my duties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I follow a schedule.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am exacting in my work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a rich vocabulary.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have difficulty understanding abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a vivid imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have excellent ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not have a good imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quick to understand things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use difficult words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I spend time reflecting on things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am full of ideas.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Personality_NIS_data",
+    "category": "Personality",
+    "name": "Nis Data",
+    "question_count": 36,
+    "questions": [
+      {
+        "title": "I use my hands and arms to gesture while talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I touch others on the shoulder or arm while talking to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use a monotone or dull voice while talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I look over or away from others while talking to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I move away from others when they touch me while we are talking.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a relaxed body position when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I frown while talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I avoid eye contact while talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a tense body position while talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sit close or stand close to people while talking with them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My voice is monotonous or dull when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use a variety of vocal expressions when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I gesture when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am animated when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a bland facial expression when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I move closer to people when I talk to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I look directly at people while talking to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am stiff when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a lot of vocal variety when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I avoid gesturing while I am talking to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I lean toward people when I talk to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I maintain eye contact with people when I talk to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I try not to sit or stand close to people when I talk with them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I lean away from people when I talk to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I smile when I talk to people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I avoid touching people when I talk to them.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Personality_NR6-data-14Nov2018",
+    "category": "Personality",
+    "name": "Nr6 Data 14Nov2018",
+    "question_count": 16,
+    "questions": [
+      {
+        "title": "My ideal vacation spot would be a remote, wilderness area.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I always think about how my actions affect the environment.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My connection to nature and the environment is a part of my spirituality.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take notice of wildlife wherever I am.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My relationship to nature is an important part of who I am.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel very connected to all living things and the earth.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Research_Datasets_HSNS+DD",
+    "category": "Research Datasets",
+    "name": "Hsns+Dd",
+    "question_count": 24,
+    "questions": [
+      {
+        "title": "The Hyper Sensitive Narcissism Scale. Hendin, H.; & Cheek, J. (1997). \"Assessing Hypersensitive Narcissism: A Re-examination of Murray\\'s Narcissism Scale\". Journal of Research in Personality, 31, 588-599.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The Dirty Dozen. Jonason, P.; Webster, G. (2010). \"The Dirty Dozen: A Concise Measure of the Dark Triad\". Psychological Assessment, 22(2), 420432.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can become entirely absorbed in thinking about my personal affairs, my health, my cares or my relations to others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My feelings are easily hurt by ridicule or the slighting remarks of others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I enter a room I often become self conscious and feel that the eyes of others are upon me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dislike sharing the credit of an achievement with others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel that I have enough on my hands without worrying about other people's troubles.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel that I am temperamentally different from most people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often interpret the remarks of others in a personal way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I easily become wrapped up in my own interests and forget the existence of others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dislike being with a group unless I know that I am appreciated by at least one of those present.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am secretly \"put out\" or annoyed when other people come to me with their troubles, asking me for my time and sympathy.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to manipulate others to get my way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have used deceit or lied to get my way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have used flattery to get my way.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to exploit others towards my own end.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to lack remorse.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to not be too concerned with morality or the morality of my actions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to be callous or insensitive.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to be cynical.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to want others to admire me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to want others to pay attention to me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to seek prestige or status.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to expect special favors from others.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Research_Datasets_HSQ",
+    "category": "Research Datasets",
+    "name": "Hsq",
+    "question_count": 32,
+    "questions": [
+      {
+        "title": "I usually dont laugh or joke around much with other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I am feeling depressed, I can usually cheer myself up with humor.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If someone makes a mistake, I will often tease them about it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I let people laugh at me or make fun at my expense more than I should.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont have to work very hard at making other people laughI seem to be a naturally humorous person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Even when Im by myself, Im often amused by the absurdities of life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People are never offended or hurt by my sense of humor.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I will often get carried away in putting myself down if it makes my family or friends laugh.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I rarely make other people laugh by telling funny stories about myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I am feeling upset or unhappy I usually try to think of something funny about the situation to make myself feel better.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When telling jokes or saying funny things, I am usually not very concerned about how other people are taking it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often try to make people like or accept me more by saying something funny about my own weaknesses, blunders, or faults.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I laugh and joke a lot with my closest friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My humorous outlook on life keeps me from getting overly upset or depressed about things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not like it when people use humor as a way of criticizing or putting someone down.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont often say funny things to put myself down.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I usually dont like to tell jokes or amuse people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If Im by myself and Im feeling unhappy, I make an effort to think of something funny to cheer myself up.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sometimes I think of something that is so funny that I cant stop myself from saying it, even if it is not appropriate for the situation.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often go overboard in putting myself down when I am making jokes or trying to be funny.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I enjoy making people laugh.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I am feeling sad or upset, I usually lose my sense of humor.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I never participate in laughing at others even if all my friends are doing it.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When I am with friends or family, I often seem to be the one that other people make fun of or joke about.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont often joke around with my friends.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It is my experience that thinking about some amusing aspect of a situation is often a very effective way of coping with problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I dont like someone, I often use humor or teasing to put them down.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I am having problems or feeling unhappy, I often cover it up by joking around, so that even my closest friends dont know how I really feel.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I usually cant think of witty things to say when Im with other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont need to be with other people to feel amused  I can usually find things to laugh about even when Im by myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Even if something is really funny to me, I will not laugh or joke about it if someone will be offended.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Letting others laugh at me is my way of keeping my friends and family in good spirits.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Sexual_Behaviour_MSSCQ",
+    "category": "Sexual Behaviour",
+    "name": "Msscq",
+    "question_count": 100,
+    "questions": [
+      {
+        "title": "I feel anxious when I think about the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have the ability to take care of any sexual needs and desires that I may have.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very aware of my sexual feelings and needs.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am motivated to avoid engaging in \"risky\" (i.e., unprotected) sexual behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are determined mostly by chance happenings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think about sex \"all the time.\"",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im very assertive about the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I expect that the sexual aspects of my life will be positive and rewarding in the future.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I would be to blame, if the sexual aspects of my life were not going very well.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I notice how others perceive and react to the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im motivated to be sexually active.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were to experience a sexual problem, I myself would in control of whether this improved.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I derive a sense of self-pride from the way I handle my own sexual needs and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am satisfied with the way my sexual needs are currently being met.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexual behaviors are determined largely by other more powerful and influential people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Not only would I be a good sexual partner, but its quite important to me that I be a good sexual partner.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am afraid of becoming sexual involved with another person.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I am careful, then I will be able to prevent myself from having any sexual problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am depressed about the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexuality is something that I am largely responsible for.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry about the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am competent enough to make sure that my sexual needs are fulfilled.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very aware of my sexual motivations and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am motivated to keep myself from having any \"risky\" sexual behavior (e.g., exposure to sexual diseases).",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Most things that affect the sexual aspects of my life happen to me by accident.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think about sex more than anything else.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im not very direct about voicing my sexual needs and preferences. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I believe that in the future the sexual aspects of my life will be healthy and positive.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If the sexual aspects of my life were to go wrong, I would be the person to blame.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im concerned with how others evaluate my own sexual beliefs and behaviors.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im motivated to devote time and effort to sex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were to experiences a sexual problem, my own behavior would determine whether I improved.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am proud of the way I deal with and handle my own sexual desires and needs.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am satisfied with the status of my own sexual fulfillment.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexual behaviors are largely controlled by people other than myself (e.g., my partner, friends, family).",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Not only would I be a skilled sexual partner, but its very important to me that I be a skilled sexual partner.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a fear of sexual relationships.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I can pretty much prevent myself from developing sexual problems by taking good care of myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am disappointed about the quality of my sex life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are determined in large part by my own behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Thinking about the sexual aspects of my life often leaves me with an uneasy feeling.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have the skills and ability to ensure rewarding sexual behaviors for myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to think about my own sexual beliefs and attitudes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I want to avoid engaging in sex where I might be exposed to sexual diseases.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Luck plays a big part in influencing the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I tend to be preoccupied with sex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am somewhat passive about expressing my own sexual desires. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not expect to suffer any sexual problems or frustrations in the future.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were to develop a sexual disorder, then I would be to blame for not taking good care of myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quick to notice other peoples reactions to the sexual aspects of my own life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a desire to be sexually active.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were to become sexually maladjusted, I myself would be responsible for making myself better.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am pleased with how I handle my own sexual tendencies and behaviors.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are personally gratifying to me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexual behavior is determined by the actions of powerful others (e.g., my partner, friends, family).",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Not only could I relate well to a sexual partner, but its important to me that I be able to do so.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am fearful of engaging sexual activity.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If just I look out for myself, then I will be able to avoid any sexual problems in the future.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel discouraged about my sex life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am in control of and am responsible for the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry about the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am able to cope with and to handle my own sexual needs and wants.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im very alert to changes in my sexual thoughts, feelings, and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I really want to prevent myself from being exposed to sexual diseases.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are largely a matter of (good or bad) fortune.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im constantly thinking about having sex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not hesitate to ask for what I want in a sexual relationship.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I will probably experience some sexual problems in the future. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I were to develop a sexual problem, then it would be my own fault for letting it happen.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im concerned about how the sexual aspects of my life appear to others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Its important to me that I involve myself in sexual activity.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I developed any sexual problems, my recovery would depend in large part on what I myself would do.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have positive feelings about the way I approach my own sexual needs and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are satisfactory, compared to most peoples.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "In order to be sexually active, I have to conform to other more powerful individuals.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am able to \"connect\" well with a sexual partner, and its important to me that I am able to do so.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I dont have much fear about engaging in sex. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I will be able to avoid any sexual problems, if I just take good care of myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel unhappy about my sexual experiences.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The main thing which affects the sexual aspects of my life is what I myself do.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel nervous when I think abut the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have the capability to take care of my own sexual needs and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am very aware of the sexual aspects of myself (e.g. habits, thoughts, beliefs).",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am really motivated to avoid any sexual activity that might expose me to sexual diseases.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The sexual aspects of my life are a matter of fate (destiny).",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think about sex the majority of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "When it comes to sex, I usually ask for what I want.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I anticipate that in the future the sexual aspects of my life will be frustrating. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If something went wrong with my own sexuality, then it would be my own fault.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im aware of the public impression created by my own sexual behaviors and attitudes.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I strive to keep myself sexually active.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I developed a sexual disorder, my recovery would depend on how I myself dealt with the problem.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel good about the way I express my own sexual needs and desires.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am satisfied with the sexual aspects of my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexual behavior is mostly determined by people who have influence and control over me.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Not only am I be capable of relating to a sexual partner, but its important to me that I relate very well.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Im not afraid of becoming sexually active. (R)",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If I just pay careful attention, Ill be able to prevent myself from having any sexual problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel sad when I think about my sexual experiences.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexuality is something that I myself am in charge of.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Sexual_Behaviour_SCS",
+    "category": "Sexual Behaviour",
+    "name": "Scs",
+    "question_count": 10,
+    "questions": [
+      {
+        "title": "My sexual appetite has gotten in the way of my relationships.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My sexual thoughts and behaviors are causing problems in my life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My desires to have sex have disrupted my daily life.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes fail to meet my commitments and responsibilities because of my sexual behaviors.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sometimes get so horny I could lose control.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I find myself thinking about sex while at work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel that sexual thoughts and feelings are stronger than I am.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have to struggle to control my sexual thoughts and behavior.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I think about sex more than I would like to.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "It has been difficult for me to find sex partners who desire having sex as much as I want to.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Social_Psychology_duckworth-grit-scale-data",
+    "category": "Social Psychology",
+    "name": "Duckworth Grit Scale Data",
+    "question_count": 62,
+    "questions": [
+      {
+        "title": "I am the life of the party.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't talk a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel comfortable around people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I keep in the background.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I start conversations.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have little to say.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I talk to a lot of different people at parties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't like to draw attention to myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I don't mind being the center of attention.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quiet around strangers.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get stressed out easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am relaxed most of the time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I worry about things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I seldom feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am easily disturbed.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get upset easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I change my mood a lot.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have frequent mood swings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get irritated easily.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often feel blue.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel little concern for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am interested in people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I insult people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I sympathize with others' feelings.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in other people's problems.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a soft heart.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not really interested in others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take time out for others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel others' emotions.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make people feel at ease.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am always prepared.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I leave my belongings around.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I pay attention to details.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I make a mess of things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I get chores done right away.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often forget to put things back in their proper place.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I like order.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I shirk my duties.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I follow a schedule.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am exacting in my work.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a rich vocabulary.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have difficulty understanding abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have a vivid imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am not interested in abstract ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have excellent ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I do not have a good imagination.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am quick to understand things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I use difficult words.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I spend time reflecting on things.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am full of ideas.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "New ideas...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "My interests...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Setbacks don't...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have been...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I finish...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I have...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I become...",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am...",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Social_Psychology_PWE_data",
+    "category": "Social Psychology",
+    "name": "Pwe Data",
+    "question_count": 29,
+    "questions": [
+      {
+        "title": "Most people spend too much time in unprofitable amusements.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Our society would have fewer problems if people had less leisure time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Money acquired easily (e.g. through gambling or speculation) is usually spent unwisely.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "There are few satisfactions equal to the realization that one has done one&apos;s best at a job.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The most difficult college courses usually turn out to be the most rewarding.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Most people who don\u2019t succeed in life are just plain lazy.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The self-made person is likely to be more ethical than someone who is born to wealth.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I often feel I would be more successful if I sacrificed certain pleasures.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People should have more leisure time to spend in relaxation.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anyone who is able and willing to work hard has a good chance of succeeding.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "People who fail at a job have usually not tried hard enough.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Life would have very little meaning if we never had to suffer.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Hard work offers little guarantee of success.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The credit card is a ticket to careless spending.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Life would be more meaningful if we had more leisure time.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "The person who can approach an unpleasant task with enthusiasm is the one who gets ahead.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "If one works hard enough they are likely to make a good life for themselves.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel uneasy when there is little work for me to do.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "A distaste for hard work usually reflects a weakness of character.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Social_Psychology_RSE",
+    "category": "Social Psychology",
+    "name": "Rse",
+    "question_count": 10,
+    "questions": [
+      {
+        "title": "I feel that I am a person of worth, at least on an equal plane with others.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel that I have a number of good qualities.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "All in all, I am inclined to feel that I am a failure.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I am able to do things as well as most other people.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I feel I do not have much to be proud of.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I take a positive attitude toward myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "On the whole, I am satisfied with myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I wish I could have more respect for myself.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "I certainly feel useless at times.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "At times I think I am no good at all.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  },
+  {
+    "id": "Social_Psychology_RWAS",
+    "category": "Social Psychology",
+    "name": "Rwas",
+    "question_count": 10,
+    "questions": [
+      {
+        "title": "Extraverted, enthusiastic.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Critical, quarrelsome.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Dependable, self-disciplined.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Anxious, easily upset.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Open to new experiences, complex.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Reserved, quiet.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Sympathetic, warm.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Disorganized, careless.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Calm, emotionally stable.",
+        "answer_type": "linear",
+        "required": true
+      },
+      {
+        "title": "Conventional, uncreative.",
+        "answer_type": "linear",
+        "required": true
+      }
+    ]
+  }
+]

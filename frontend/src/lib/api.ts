@@ -150,6 +150,20 @@ export interface ResultsData {
   construct_averages: Record<string, number>;
 }
 
+export interface TemplateQuestion {
+  title: string;
+  answer_type: string;
+  required: boolean;
+}
+
+export interface TemplateData {
+  id: string;
+  category: string;
+  name: string;
+  question_count: number;
+  questions: TemplateQuestion[];
+}
+
 export const authApi = {
   me: () => request<User>("/me/"),
   login: (payload: LoginPayload) => request<{ user: User }>("/login/", {
@@ -184,6 +198,7 @@ export const dashboardApi = {
       body: JSON.stringify(payload),
     }),
   shortenUrl: (formId: number) => request<{ short_code: string }>(`/dashboard/forms/${formId}/shorten/`, { method: "POST" }),
+  getTemplates: () => request<TemplateData[]>("/templates/"),
 };
 
 export const formApi = {

@@ -27,7 +27,6 @@ urlpatterns = [
     # ShortLink redirect
     path("s/<str:short_code>/", views.redirect_short_link),
 
-    # Existing server-rendered pages are removed in favor of React SPA
     path("forms/<int:pk>/", views.render_form, name="render_form"),
     path("forms/<int:pk>/submit/", views.submit_form, name="submit_form"),
     path("forms/<int:pk>/results/", views.results_view, name="results_view"),

@@ -272,3 +272,18 @@ def api_shorten_url(request, pk):
     short_link, created = ShortLink.objects.get_or_create(form=form)
     return DRFResponse({"short_code": short_link.short_code})
 
+import os
+import json
+from django.conf import settings
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def api_templates(request):
+    try:
+        json_path = os.path.join(settings.BASE_DIR, "templates.json")
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return DRFResponse(data)
+    except Exception as e:
+        return DRFResponse({"error": str(e)}, status=500)
+

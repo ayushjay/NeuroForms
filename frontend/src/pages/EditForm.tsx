@@ -6,12 +6,13 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
-import { Plus, Trash2, GripVertical, ChevronDown, ChevronUp, Loader2 } from "lucide-react";
+import { Plus, Trash2, GripVertical, ChevronDown, ChevronUp, Loader2, BookOpen } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { dashboardApi, type QuestionData, type OptionData } from "@/lib/api";
+import { dashboardApi, type QuestionData, type OptionData, type TemplateData } from "@/lib/api";
 import { useToast } from "@/hooks/use-toast";
 import type { AnswerType } from "@/types/form";
 import ShareFormModal from "@/components/dashboard/ShareFormModal";
+import TemplateModal from "@/components/dashboard/TemplateModal";
 
 const ANSWER_TYPES: { value: AnswerType; label: string }[] = [
   { value: "paragraph", label: "Paragraph" },
@@ -35,6 +36,8 @@ const EditForm = () => {
   const [loading, setLoading] = useState(true);
   const [expandedQ, setExpandedQ] = useState<number | null>(null);
   const [shareModalOpen, setShareModalOpen] = useState(false);
+  const [templateModalOpen, setTemplateModalOpen] = useState(false);
+  const [importingTemplate, setImportingTemplate] = useState(false);
 
   // New question draft
   const [newTitle, setNewTitle] = useState("");
@@ -69,6 +72,44 @@ const EditForm = () => {
       toast({ title: "Failed to add question", variant: "destructive" });
     } finally {
       setAddingQuestion(false);
+    }
+  };
+
+  const importTemplate = async (template: TemplateData) => {
+    setImportingTemplate(true);
+    setTemplateModalOpen(false);
+    
+    try {
+      let currentExpanded: number | null = null;
+      for (const tq of template.questions) {
+        const q = await dashboardApi.addQuestion(formId, {
+          title: tq.title,
+          answer_type: tq.answer_type,
+          required: tq.required,
+        });
+        
+        // Add default linear scale options if it's a linear scale test
+        if (tq.answer_type === "linear") {
+          await dashboardApi.addOption(q.id, { text: "1 - Strongly Disagree", score: 1 });
+          await dashboardApi.addOption(q.id, { text: "2 - Disagree", score: 2 });
+          await dashboardApi.addOption(q.id, { text: "3 - Neutral", score: 3 });
+          await dashboardApi.addOption(q.id, { text: "4 - Agree", score: 4 });
+          await dashboardApi.addOption(q.id, { text: "5 - Strongly Agree", score: 5 });
+        }
+        
+        currentExpanded = q.id;
+      }
+      
+      // Reload form to get perfect state with all options cleanly
+      const data = await dashboardApi.getForm(formId);
+      setQuestions(data.questions || []);
+      
+      toast({ title: `Successfully imported ${template.question_count} questions from ${template.name}` });
+      if (currentExpanded) setExpandedQ(currentExpanded);
+    } catch {
+      toast({ title: "Failed to import template questions", variant: "destructive" });
+    } finally {
+      setImportingTemplate(false);
     }
   };
 
@@ -195,10 +236,16 @@ const EditForm = () => {
 
         {/* Add question form */}
         <div className="bg-card rounded-xl border-2 border-dashed border-teal/30 p-6 space-y-4">
-          <h3 className="font-display font-semibold text-sm flex items-center gap-2">
-            <Plus className="w-4 h-4 text-teal" />
-            Add Question
-          </h3>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="font-display font-semibold text-sm flex items-center gap-2">
+              <Plus className="w-4 h-4 text-teal" />
+              Add Question
+            </h3>
+            <Button variant="outline" size="sm" onClick={() => setTemplateModalOpen(true)} disabled={importingTemplate}>
+              {importingTemplate ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <BookOpen className="w-4 h-4 mr-2" />}
+              Import Template
+            </Button>
+          </div>
           <div className="space-y-3">
             <Input placeholder="Question text..." value={newTitle} onChange={e => setNewTitle(e.target.value)} disabled={addingQuestion} />
             <div className="flex flex-wrap gap-3 items-center">
@@ -232,6 +279,11 @@ const EditForm = () => {
           onClose={() => setShareModalOpen(false)}
         />
       )}
+      <TemplateModal
+        isOpen={templateModalOpen}
+        onClose={() => setTemplateModalOpen(false)}
+        onImport={importTemplate}
+      />
     </DashboardLayout>
   );
 };

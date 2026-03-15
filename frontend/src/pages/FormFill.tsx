@@ -20,8 +20,24 @@ const FormFill = () => {
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [answers, setAnswers] = useState<Record<number, any>>({});
+  const [timers, setTimers] = useState<Record<number, number>>({});
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [activeQuestionId, setActiveQuestionId] = useState<number | null>(null);
+
+  // Timer effect
+  useEffect(() => {
+    if (!activeQuestionId || submitted || submitting) return;
+
+    const interval = setInterval(() => {
+      setTimers(prev => ({
+        ...prev,
+        [activeQuestionId]: (prev[activeQuestionId] || 0) + 1
+      }));
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [activeQuestionId, submitted, submitting]);
 
   useEffect(() => {
     formApi.get(formId)
@@ -43,6 +59,7 @@ const FormFill = () => {
         answers: Object.entries(answers).map(([qId, value]) => ({
           question_id: Number(qId),
           value,
+          time_taken: timers[Number(qId)] || 0,
         })),
       };
       await formApi.submit(formId, payload);
@@ -110,13 +127,19 @@ const FormFill = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.05 }}
-              className="bg-card rounded-xl border border-border p-5 shadow-card space-y-3"
+              onClick={() => setActiveQuestionId(q.id)}
+              className={`bg-card rounded-xl border p-5 shadow-card space-y-3 transition-colors ${
+                activeQuestionId === q.id ? "border-teal rng-2 ring-teal/20" : "border-border"
+              }`}
             >
               <Label className="font-medium leading-snug">
                 {q.title}
                 {q.required && <span className="text-destructive ml-1">*</span>}
               </Label>
-              <QuestionInput question={q} value={answers[q.id]} onChange={v => setAnswer(q.id, v)} />
+              <QuestionInput question={q} value={answers[q.id]} onChange={v => {
+                setActiveQuestionId(q.id);
+                setAnswer(q.id, v);
+              }} />
             </motion.div>
           ))}
 

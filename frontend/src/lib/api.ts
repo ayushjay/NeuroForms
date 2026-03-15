@@ -147,7 +147,30 @@ export interface FormDetail {
 
 export interface ResultsData {
   total_responses: number;
+  timeline: { date: string; count: number }[];
   construct_averages: Record<string, number>;
+  construct_distributions: Record<string, number[]>;
+  question_stats: {
+    id: number;
+    text: string;
+    type: string;
+    avg_time: number;
+    options: { name: string; count: number }[];
+  }[];
+  individual_responses?: {
+    id: number;
+    email: string;
+    submitted_at: string;
+    scores: Record<string, number>;
+    percentiles: Record<string, number>;
+    demographics: Record<string, string>;
+  }[];
+  correlation_matrix?: any[];
+  construct_names?: string[];
+  cross_analysis?: {
+    demographic: string;
+    groups: any[];
+  }[];
 }
 
 export interface TemplateQuestion {

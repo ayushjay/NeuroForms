@@ -251,7 +251,8 @@ def api_submit_form(request, pk):
         Answer.objects.create(
             response=response_obj,
             question=question,
-            value=ans["value"],
+            value=ans.get("value"),
+            time_taken=ans.get("time_taken", 0.0)
         )
 
     return DRFResponse({"message": "Form submitted successfully"}, status=201)
@@ -286,4 +287,65 @@ def api_templates(request):
         return DRFResponse(data)
     except Exception as e:
         return DRFResponse({"error": str(e)}, status=500)
+
+import csv
+from django.http import HttpResponse
+
+@api_view(["GET"])
+@permission_classes([IsAuthenticated])
+def api_export_csv(request, pk):
+    form = get_object_or_404(Form, pk=pk, creator=request.user)
+    responses = Response.objects.filter(form=form).prefetch_related("answers__question")
+    
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = f'attachment; filename="form_{form.id}_responses.csv"'
+    
+    writer = csv.writer(response)
+    
+    # Write Headers
+    questions = form.questions.all().order_by("order")
+    headers = ["Timestamp", "Email"]
+    for q in questions:
+        headers.append(f"Q: {q.title}")
+        headers.append(f"Time (s): {q.title}")
+    writer.writerow(headers)
+    
+    # Write Data
+    for resp in responses:
+        row = [resp.submitted_at.strftime("%Y-%m-%d %H:%M:%S"), resp.email or "Anonymous"]
+        
+        # Build answer dict for easier lookup
+        answer_dict = {a.question_id: a for a in resp.answers.all()}
+        
+        for q in questions:
+            ans = answer_dict.get(q.id)
+            if ans:
+                # Format list values nicely for checkbox
+                val = ans.value
+                if isinstance(val, list):
+                    # Try to map IDs to text if they are ints
+                    texts = []
+                    for v in val:
+                        try:
+                            opt = q.options.get(id=int(v))
+                            texts.append(opt.text)
+                        except (ValueError, TypeError, Option.DoesNotExist):
+                            texts.append(str(v))
+                    val = ", ".join(texts)
+                elif q.answer_type in ["mcq", "dropdown"]:
+                    try:
+                        opt = q.options.get(id=int(val))
+                        val = opt.text
+                    except (ValueError, TypeError, Option.DoesNotExist):
+                        pass
+                
+                row.append(str(val))
+                row.append(str(ans.time_taken) if hasattr(ans, 'time_taken') else "0")
+            else:
+                row.append("")
+                row.append("0")
+                
+        writer.writerow(row)
+        
+    return response
 

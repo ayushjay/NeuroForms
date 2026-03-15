@@ -1,7 +1,21 @@
 import { useParams, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import DashboardLayout from "@/components/dashboard/DashboardLayout";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+  CartesianGrid,
+  LineChart,
+  Line,
+  PieChart,
+  Pie,
+  Cell,
+  Legend,
+} from "recharts";
 import { ArrowLeft, Users, TrendingUp, Loader2, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import html2pdf from "html2pdf.js";
@@ -12,35 +26,97 @@ const FormResults = () => {
   const { id } = useParams();
   const formId = Number(id);
   const { toast } = useToast();
+
   const [results, setResults] = useState<ResultsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [exporting, setExporting] = useState(false);
 
+  const COLORS = useMemo(
+    () => [
+      "#0f766e",
+      "#0369a1",
+      "#7c3aed",
+      "#ea580c",
+      "#22c55e",
+      "#e11d48",
+      "#facc15",
+      "#6366f1",
+      "#14b8a6",
+      "#f97316",
+    ],
+    []
+  );
+
   useEffect(() => {
     formApi.results(formId)
       .then(setResults)
-      .catch(() => toast({ title: "Failed to load results", variant: "destructive" }))
+      .catch(() =>
+        toast({ title: "Failed to load results", variant: "destructive" })
+      )
       .finally(() => setLoading(false));
   }, [formId]);
 
-  const chartData = results
-    ? Object.entries(results.construct_averages).map(([construct, average]) => ({
-        construct,
-        average: Number(average.toFixed(2)),
-      }))
-    : [];
+  const constructSummary =
+    results && results.construct_averages
+      ? Object.entries(results.construct_averages).map(([construct, average]) => {
+          const dist = results.construct_distributions?.[construct] ?? [];
+          const min = dist.length ? Math.min(...dist) : 0;
+          const max = dist.length ? Math.max(...dist) : 0;
+          const variance =
+            dist.length > 1
+              ? dist.reduce((acc, v) => acc + (v - average) ** 2, 0) / (dist.length - 1)
+              : 0;
+          const stddev = Math.sqrt(variance);
+          return {
+            construct,
+            average: Number(average.toFixed(2)),
+            min: Number(min.toFixed(2)),
+            max: Number(max.toFixed(2)),
+            stddev: Number(stddev.toFixed(2)),
+          };
+        })
+      : [];
+
+  const timelineData =
+    results?.timeline?.map((t) => ({
+      date: t.date,
+      count: t.count,
+    })) ?? [];
+
+  const questionPieChartsData = useMemo(() => {
+    if (!results?.question_stats?.length) return [];
+
+    return results.question_stats
+      .filter((q) => q.options && q.options.length > 0)
+      .map((q) => ({
+        id: q.id,
+        text: q.text,
+        type: q.type,
+        avg_time: q.avg_time,
+        options: q.options.map((opt) => ({
+          name: opt.name,
+          value: opt.count,
+        })),
+      }));
+  }, [results]);
+
+  /* ---------------- PDF EXPORT ---------------- */
 
   const handleExportPDF = () => {
     setExporting(true);
+
     const element = document.getElementById("pdf-export-content");
-    
-    // Configure html2pdf options for high quality output
+    if (!element) {
+      setExporting(false);
+      return;
+    }
+
     const opt = {
-      margin:       0.5,
-      filename:     `Form_${id}_Results.pdf`,
-      image:        { type: 'jpeg', quality: 0.98 },
-      html2canvas:  { scale: 2, useCORS: true },
-      jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+      margin: 0.5,
+      filename: `Form_${id}_Results.pdf`,
+      image: { type: "jpeg", quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
     };
 
     html2pdf()
@@ -49,108 +125,378 @@ const FormResults = () => {
       .save()
       .then(() => setExporting(false))
       .catch(() => {
-        toast({ title: "Export failed", description: "Could not generate PDF", variant: "destructive" });
+        toast({
+          title: "Export failed",
+          description: "Could not generate PDF",
+          variant: "destructive",
+        });
         setExporting(false);
       });
   };
+
+  /* ---------------- CSV EXPORT ---------------- */
+
+  const handleExportCSV = () => {
+    const token = localStorage.getItem("access_token");
+
+    if (!token) {
+      toast({ title: "Unauthorized", variant: "destructive" });
+      return;
+    }
+
+    setExporting(true);
+
+    fetch(`/api/dashboard/forms/${id}/export_csv/`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error("Export failed");
+        return res.blob();
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `form_${id}_responses.csv`;
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        a.remove();
+      })
+      .finally(() => setExporting(false));
+  };
+
+  /* ---------------- INDIVIDUAL RESPONSES ---------------- */
+
+  const renderIndividualResponses = () => {
+    if (!results?.individual_responses?.length) return null;
+
+    return (
+      <div className="space-y-6 mt-12">
+        <h3 className="font-display font-semibold text-xl">
+          Individual Responses & Percentiles
+        </h3>
+
+        <div className="bg-card rounded-xl border border-border shadow-card overflow-hidden">
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm text-left">
+              <thead className="bg-muted/50 border-b border-border">
+                <tr>
+                  <th className="px-6 py-4">Respondent</th>
+                  <th className="px-6 py-4">Date</th>
+
+                  {results.construct_names?.map((c) => (
+                    <th key={c} className="px-6 py-4">
+                      {c} Score
+                    </th>
+                  ))}
+
+                  {results.construct_names?.map((c) => (
+                    <th key={`pct-${c}`} className="px-6 py-4">
+                      {c} %ile
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+
+              <tbody className="divide-y divide-border">
+                {results.individual_responses.map((resp: any) => (
+                  <tr key={resp.id}>
+                    <td className="px-6 py-4">{resp.email}</td>
+
+                    <td className="px-6 py-4">
+                      {new Date(resp.submitted_at).toLocaleDateString()}
+                    </td>
+
+                    {results.construct_names?.map((c) => (
+                      <td key={c} className="px-6 py-4">
+                        {resp.scores[c] || 0}
+                      </td>
+                    ))}
+
+                    {results.construct_names?.map((c) => (
+                      <td key={`pct-${c}`} className="px-6 py-4">
+                        {resp.percentiles[c] || 0}th
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  /* ---------------- CORRELATION MATRIX ---------------- */
+
+  const renderCorrelationMatrix = () => {
+    if (!results?.correlation_matrix?.length) return null;
+
+    const names = results.construct_names || [];
+
+    return (
+      <div className="space-y-6 mt-12">
+        <h3 className="font-display font-semibold text-xl">
+          Construct Correlation Matrix
+        </h3>
+
+        <div className="bg-card rounded-xl border border-border shadow-card overflow-hidden">
+          <table className="w-full text-sm text-center">
+            <thead className="bg-muted/50 border-b border-border">
+              <tr>
+                <th className="px-4 py-3 text-left">Construct</th>
+
+                {names.map((c) => (
+                  <th key={c} className="px-4 py-3">
+                    {c}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+
+            <tbody className="divide-y divide-border">
+              {results.correlation_matrix.map((row: any) => (
+                <tr key={row.construct}>
+                  <td className="px-4 py-3 text-left">{row.construct}</td>
+
+                  {names.map((c) => (
+                    <td key={c} className="px-4 py-3">
+                      {row[c]?.toFixed(2)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    );
+  };
+
+  /* ---------------- DEMOGRAPHIC CROSS ANALYSIS ---------------- */
+
+  const renderCrossAnalysis = () => {
+    if (!results?.cross_analysis?.length) return null;
+
+    return (
+      <div className="space-y-10 mt-12">
+        <h3 className="font-display font-semibold text-xl">
+          Demographic Cross Analysis
+        </h3>
+
+        <div className="space-y-8">
+          {results.cross_analysis.map((demo) => (
+            <div
+              key={demo.demographic}
+              className="bg-card rounded-xl border border-border shadow-card p-4 space-y-4"
+            >
+              <div className="flex items-baseline justify-between gap-2 flex-wrap">
+                <p className="font-medium text-sm">{demo.demographic}</p>
+                <p className="text-xs text-muted-foreground">
+                  Average construct scores by group
+                </p>
+              </div>
+
+              <div className="h-72">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={demo.groups}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                    <XAxis dataKey="group_name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    {results.construct_names?.map((c, index) => (
+                      <Bar
+                        key={c}
+                        dataKey={c}
+                        name={c}
+                        fill={COLORS[index % COLORS.length]}
+                        stackId={undefined}
+                      />
+                    ))}
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  /* ---------------- LOADING ---------------- */
 
   if (loading) {
     return (
       <DashboardLayout>
         <div className="flex justify-center py-20">
-          <Loader2 className="w-6 h-6 animate-spin text-muted-foreground" />
+          <Loader2 className="w-6 h-6 animate-spin" />
         </div>
       </DashboardLayout>
     );
   }
 
+  /* ---------------- UI ---------------- */
+
   return (
     <DashboardLayout>
       <div className="max-w-4xl mx-auto space-y-8">
-        <div className="flex justify-between items-start">
-          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
-            <Link to="/dashboard/forms" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground mb-4 transition-colors">
+
+        <div className="flex justify-between">
+          <div>
+            <Link to="/dashboard/forms" className="text-sm flex items-center gap-1">
               <ArrowLeft className="w-4 h-4" />
               Back to forms
             </Link>
-            <h1 className="font-display text-2xl font-bold">Results & Analytics</h1>
-            <p className="text-sm text-muted-foreground mt-1">Form #{id}</p>
-          </motion.div>
-          
-          <motion.button 
-            initial={{ opacity: 0, scale: 0.9 }} 
-            animate={{ opacity: 1, scale: 1 }}
-            onClick={handleExportPDF}
-            disabled={exporting}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-teal text-white rounded-lg hover:bg-teal/90 transition-colors disabled:opacity-50 font-medium text-sm shadow-sm"
-          >
-            {exporting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
-            {exporting ? "Exporting..." : "Export PDF"}
-          </motion.button>
-        </div>
 
-        <div id="pdf-export-content" className="space-y-8 bg-background p-2 -m-2 rounded-xl">
-
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div className="bg-card rounded-xl border border-border p-5 shadow-card">
-            <div className="flex items-center gap-3 mb-1">
-              <Users className="w-5 h-5 text-teal" />
-              <span className="text-sm text-muted-foreground">Total Responses</span>
-            </div>
-            <p className="font-display text-3xl font-bold">{results?.total_responses ?? 0}</p>
+            <h1 className="text-2xl font-bold">Results & Analytics</h1>
+            <p className="text-sm text-muted-foreground">Form #{id}</p>
           </div>
-          <div className="bg-card rounded-xl border border-border p-5 shadow-card">
-            <div className="flex items-center gap-3 mb-1">
-              <TrendingUp className="w-5 h-5 text-teal" />
-              <span className="text-sm text-muted-foreground">Constructs Measured</span>
-            </div>
-            <p className="font-display text-3xl font-bold">{chartData.length}</p>
+
+          <div className="flex gap-2">
+            <button onClick={handleExportCSV} className="btn">
+              <Download className="w-4 h-4" />
+              CSV
+            </button>
+
+            <button onClick={handleExportPDF} className="btn bg-teal text-white">
+              <Download className="w-4 h-4" />
+              PDF
+            </button>
           </div>
         </div>
 
-        {chartData.length > 0 && (
-          <>
-            <div className="bg-card rounded-xl border border-border p-6 shadow-card">
-              <h3 className="font-display font-semibold mb-6">Construct Averages</h3>
+        <div id="pdf-export-content" className="space-y-8">
+
+          <div className="grid grid-cols-2 gap-4">
+            <div className="p-5 border rounded-xl">
+              <Users className="w-5 h-5" />
+              <p className="text-3xl font-bold">
+                {results?.total_responses ?? 0}
+              </p>
+            </div>
+          </div>
+
+          {/* Response timeline */}
+          {timelineData.length > 0 && (
+            <div className="mt-6 bg-card rounded-xl border border-border shadow-card p-4 space-y-3">
+              <div className="flex items-baseline justify-between gap-2 flex-wrap">
+                <p className="font-display font-semibold text-lg">
+                  Responses Over Time
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  Daily submission counts
+                </p>
+              </div>
+              <div className="h-64">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={timelineData}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                    <XAxis dataKey="date" />
+                    <YAxis allowDecimals={false} />
+                    <Tooltip />
+                    <Line
+                      type="monotone"
+                      dataKey="count"
+                      stroke="#0f766e"
+                      strokeWidth={2}
+                      dot={{ r: 3 }}
+                    />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          )}
+
+          {/* Construct summary bar chart */}
+          {constructSummary.length > 0 && (
+            <div className="mt-6 bg-card rounded-xl border border-border shadow-card p-4 space-y-3">
+              <div className="flex items-baseline justify-between gap-2 flex-wrap">
+                <p className="font-display font-semibold text-lg">
+                  Construct Score Summary
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  Mean ± variability per construct
+                </p>
+              </div>
+
               <div className="h-72">
                 <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={chartData} layout="vertical" margin={{ left: 20 }}>
-                    <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="hsl(220 13% 88%)" />
-                    <XAxis type="number" domain={[0, 5]} tick={{ fontSize: 12 }} />
-                    <YAxis type="category" dataKey="construct" tick={{ fontSize: 13 }} width={100} />
-                    <Tooltip
-                      contentStyle={{
-                        borderRadius: "8px",
-                        border: "1px solid hsl(220 13% 88%)",
-                        boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-                      }}
-                    />
-                    <Bar dataKey="average" fill="hsl(174 62% 42%)" radius={[0, 6, 6, 0]} barSize={28} />
+                  <BarChart data={constructSummary}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                    <XAxis dataKey="construct" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="average" name="Average score" fill="#0f766e" />
+                    {/* Visualize spread via min/max as thin bars */}
+                    <Bar dataKey="min" name="Min" fill="#e5e7eb" />
+                    <Bar dataKey="max" name="Max" fill="#9ca3af" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
             </div>
+          )}
 
-            <div className="bg-card rounded-xl border border-border shadow-card overflow-hidden">
-              <div className="p-5 border-b border-border">
-                <h3 className="font-display font-semibold">Construct Breakdown</h3>
-              </div>
-              <div className="divide-y divide-border">
-                {chartData.map(item => (
-                  <div key={item.construct} className="flex items-center justify-between px-5 py-4">
-                    <span className="font-medium text-sm">{item.construct}</span>
-                    <div className="flex items-center gap-3">
-                      <div className="w-32 h-2 rounded-full bg-muted overflow-hidden">
-                        <div className="h-full rounded-full gradient-teal" style={{ width: `${(item.average / 5) * 100}%` }} />
-                      </div>
-                      <span className="text-sm font-mono text-muted-foreground w-10 text-right">{item.average}</span>
+          {/* Question-wise pie charts */}
+          {questionPieChartsData.length > 0 && (
+            <div className="mt-10 space-y-6">
+              <h3 className="font-display font-semibold text-xl">
+                Question-wise Response Distribution
+              </h3>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {questionPieChartsData.map((q) => (
+                  <div
+                    key={q.id}
+                    className="bg-card rounded-xl border border-border shadow-card p-4 space-y-3"
+                  >
+                    <div>
+                      <p className="font-medium text-sm mb-1">{q.text}</p>
+                      <p className="text-xs text-muted-foreground">
+                        Avg time: {q.avg_time.toFixed(2)}s
+                      </p>
+                    </div>
+
+                    <div className="h-60">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <PieChart>
+                          <Pie
+                            data={q.options}
+                            dataKey="value"
+                            nameKey="name"
+                            innerRadius={50}
+                            outerRadius={80}
+                            paddingAngle={2}
+                          >
+                            {q.options.map((entry, index) => (
+                              <Cell
+                                key={`cell-${q.id}-${entry.name}`}
+                                fill={COLORS[index % COLORS.length]}
+                              />
+                            ))}
+                          </Pie>
+                          <Tooltip
+                            formatter={(value: number) => [`${value} responses`, "Count"]}
+                          />
+                          <Legend />
+                        </PieChart>
+                      </ResponsiveContainer>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-          </>
-        )}
+          )}
+
+          {renderIndividualResponses()}
+          {renderCorrelationMatrix()}
+          {renderCrossAnalysis()}
+
         </div>
       </div>
     </DashboardLayout>

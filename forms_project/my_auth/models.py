@@ -67,6 +67,7 @@ class Answer(models.Model):
 
     value = models.JSONField(blank=True, null=True)
     file = models.FileField(upload_to='form_uploads/', null=True, blank=True)
+    time_taken = models.FloatField(default=0.0) # Time spent answering in seconds
 
 class Section(models.Model):
     form = models.ForeignKey(Form, on_delete=models.CASCADE, related_name='sections')

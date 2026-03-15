@@ -4,7 +4,8 @@ from ..models import Question
 
 class AnswerInputSerializer(serializers.Serializer):
     question_id = serializers.IntegerField()
-    value = serializers.JSONField()
+    value = serializers.JSONField(required=False, allow_null=True)
+    time_taken = serializers.FloatField(required=False, allow_null=True, default=0.0)
 
 
 class SubmitFormSerializer(serializers.Serializer):

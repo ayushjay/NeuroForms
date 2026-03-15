@@ -23,6 +23,7 @@ urlpatterns = [
     path("api/forms/<int:pk>/submit/", api_views.api_submit_form),
     path("api/forms/<int:pk>/results/", api_views.api_form_results),
     path("api/dashboard/forms/<int:pk>/shorten/", api_views.api_shorten_url),
+    path("api/dashboard/forms/<int:pk>/export_csv/", api_views.api_export_csv),
     path("api/templates/", api_views.api_templates),
 
     # ShortLink redirect
